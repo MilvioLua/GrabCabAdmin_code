@@ -106,7 +106,7 @@ const Dashboard = () => {
             <Paper style={{marginTop:'25px'}}>
                 <Typography variant="h4" style={{margin:"20px 0 0 15px"}}>{languageJson.real_time_driver_section_text}</Typography>
                 <Map mapcenter={mylocation} locations={locations}
-                    googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBL6BdEuKXSKor6kHZLOw6f7q0wqOAxmA.exp&libraries=geometry,drawing,places"
+                    googleMapURL="https://maps.googleapis.com/maps/api/js?key=type you code.exp&libraries=geometry,drawing,places"
                     loadingElement={<div style={{ height: `480px` }} />}
                     containerElement={<div style={{ height: `480px` }} />}
                     mapElement={<div style={{ height: `480px` }} />}
